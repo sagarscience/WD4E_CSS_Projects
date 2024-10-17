@@ -6,34 +6,11 @@ body {
 
 header {
     background-color: rgba(192, 192, 192, 0.75);
-    width: 100%;
-}
-
-/* Write a CSS rule to style the header tag to modify the background color property. */
-header nav + img {
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 10px;
-    vertical-align: middle;
     
 }
 
-h1 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(172, 56, 56);
-}
-
-header h1 {
-    font-size: 24px;
-    display: block;
-    color: rgb(172, 56, 56);
-}
-
 nav {
-    display: inline-block;
-    width: 80%
+    background-color: blue;
 }
 
 #dog {
@@ -44,15 +21,10 @@ nav {
 }
 
 /* Write a CSS rule to style the li tag to modify the display and width properties.   */
-nav ul {
-    vertical-align: middle;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
 
-nav ul li {
-    display: list-item;
+li {
+    display:flex;
+    width: 20%;
 }
 
 /* Write a CSS rule to style the main tag to modify the background color and font size property */
@@ -64,27 +36,20 @@ main {
 /* Write a CSS rule to style the footer tag to modify the background color property. */
 footer {
     background-color: rgba(124, 255, 229, 0.75);
-    font-size: 16px;
+   
 }
 
 /* Write a CSS rule to style the h1 tag to modify the text alignment, font family, and color  properties.  */
-
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 56, 56);
+}
 
 /* Write a CSS rule to style the p tag to modify the line height property.  */
 
 p {
     line-height: 1.5;
-}
-
-li {
-    align-self: center;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 #walks {
