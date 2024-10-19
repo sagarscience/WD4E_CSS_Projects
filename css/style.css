@@ -1,6 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+
+    .a {
+        position: absolute;
+        overflow: hidden;
+        left: -500px;
+    }
+
+    .a:focus{
+        position: relative;
+        left: 5px;
+    }
 }
 
 .nav {
